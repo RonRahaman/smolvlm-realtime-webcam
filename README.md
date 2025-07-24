@@ -1,6 +1,6 @@
 # Real-time camera demo for LLM services
 
-This is a demo for real-time object detection using the [SmolVLM-Instruct](https://huggingface.co/blog/smolvlm) vision model.  The app is single HTML webpage that runs on your local computer, gets an image from your webcam, and processes the image on a remote LLM endpoint -- in this case, PACE's LiteLLM service.  You don't need to install anything on your local computer -- you just need a web browser.  
+This is a demo for real-time object detection using the [SmolVLM-Instruct](https://huggingface.co/blog/smolvlm) vision model.  The app is a single HTML webpage that runs on your local computer, gets an image from your webcam, and processes the image on a remote LLM endpoint -- in this case, PACE's LiteLLM service.  You don't need to install anything on your local computer -- you just need a web browser.  
 
 This is a (very minor) modification of an [app](https://github.com/ngxson/smolvlm-realtime-webcam) by [Xuan-Son Nguyen](https://ngxson.com/).  At time of writing, he's a software engineer at Hugging Face.  If you like his app, [buy him a coffee!](https://buymeacoffee.com/ngxson)
 
