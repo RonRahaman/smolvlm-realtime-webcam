@@ -79,7 +79,7 @@
     <div class="io-areas">
         <div>
             <label for="baseURL">Base API:</label><br>
-            <input id="baseURL" name="Instruction" value="http://litellm-dev.pace.gatech.edu:4000"></textarea>
+            <input id="baseURL" name="Instruction" value="https://litellm-dev.pace.gatech.edu:4000"></textarea>
         </div>
         <div>
             <label for="apiKey">API Key:</label><br>
@@ -129,7 +129,7 @@
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({
-                    model: 'HuggingFaceTB/SmolVLM-Instruct',
+                    model: 'Qwen/Qwen2.5-VL-7B-Instruct',
                     max_tokens: 100,
                     messages: [
                         { role: 'user', content: [

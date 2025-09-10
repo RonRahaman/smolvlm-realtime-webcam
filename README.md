@@ -4,12 +4,14 @@ This is a demo for real-time object detection using the [SmolVLM-Instruct](https
 
 This is a (very minor) modification of an [app](https://github.com/ngxson/smolvlm-realtime-webcam) by [Xuan-Son Nguyen](https://ngxson.com/).  At time of writing, he's a software engineer at Hugging Face.  If you like his app, [buy him a coffee!](https://buymeacoffee.com/ngxson)
 
+* **Update 2025-09-10:** I updated the app to use Qwen2.5-VL, with drastically improved  results.  
+
 ## How to run
 
 1. Claim your PACE LiteLLM account and generate an API key.  See [this guide.](https://github.gatech.edu/PACE/litellm-workflows/blob/main/01_claim_account_generate_key.ipynb)
 2. Open [index.html](./index.html) in your web browser.  
 3. Fill out these fields on the webform
-   * Base API: http://litellm-dev.pace.gatech.edu:4000
+   * Base API: https://litellm-dev.pace.gatech.edu:4000
    * API Key: The key you generated in Step 1
 4. Click start!
 
